@@ -1,0 +1,128 @@
+
+body{
+    font-family: 'Rubik';
+    overflow-x: hidden;
+    overflow: hidden;
+}
+.fixe{
+    width: 60px;
+    height:60px;
+    background-color: white;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    border-radius: 50px;
+    transition: 0.3s;
+    color: #1d3557;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    flex-wrap:wrap;
+    align-content:center;
+    text-decoration: none;
+    opacity: 0.6;
+}
+.fixe i{
+    font-size:x-large;
+}
+.fixe:hover{
+    background-color: #1d3557;
+    color: white;
+    transition: 0.3s;
+    opacity: 0.9;
+
+}
+#nav1{
+    margin-top: 4rem;
+}
+.navbar{
+    background-color: #000000;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+.nav-link {
+    color: #afafaf;
+}
+.nav-link:hover{
+    color: #1d3557;
+}
+.tex{
+    color: #afafaf;
+}
+.lod{
+    width: 100px;
+}
+.loader{
+    background-color: #1d3557;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+}
+.loader-icon{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    align-content:center;
+    height: 100vh;
+}
+
+
+.one{
+    background-color: #f1faee;
+}
+.ht{
+    margin-top: 5vh;
+    text-align: center;
+    color:#1d3557 ;
+}
+
+.featurette-heading{
+    color: #1d3557;
+}
+.lead{
+    color: #9b9b9b;
+
+}
+.imgd{
+    width: 25rem;
+    height: 25rem;
+    background-position:center;
+    background-size: cover;
+    border-radius: 100% 100% 100% 00%;
+    
+
+}
+
+.imgd-1{
+    width: 25rem;
+    height: 25rem;
+    background-position:center;
+    background-size: cover;
+    border-radius: 100% 00% 100% 100%;
+
+    
+}
+
+.a{
+    background-color: #1d3557;
+    padding: 10px;
+
+}
+.a h3{
+    color: white;
+    font-family: 'Rubik';
+    font-weight:lighter;
+    font-size:medium;
+}
+.card-title{
+    color: #1d3557;
+}
+.foote{
+    background-color: #000000;
+}
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
